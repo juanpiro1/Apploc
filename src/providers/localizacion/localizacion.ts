@@ -15,8 +15,8 @@ import { map } from 'rxjs/operators';
 */
 @Injectable()
 export class LocalizacionProvider {
-  urlv = 'http://31.220.55.5:3000:3000/api/vehiculos';
-  urld = 'http://31.220.55.5:3000:3000/api/Datos';
+  urlv = 'http://31.220.55.5:3000/api/vehiculos';
+  urld = 'http://31.220.55.5:3000/api/Datos';
   headers = new HttpHeaders({
     'Content-type': 'application/json',
   });
